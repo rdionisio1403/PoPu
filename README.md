@@ -8,7 +8,7 @@ The data gathering process resulted in 30 samples per pose, divided when the sub
 
 The data files are divided throughout folders that contain the data for each of the volunteers.
 The three different layers of data (pressure over, pressure under and segmentation) are in different folders, with the following structure:
-
+```
 .
 └── PoPu_data/
     ├── sensomatt_data/
@@ -33,7 +33,7 @@ The three different layers of data (pressure over, pressure under and segmentati
             ├── <position+variation_json_files_with_segmentation_results>
             └── <segment_images_folder>/
                 └── <position+variation_segment_image>
-
+```
 The structure of each of the files that contain the pressure data is as follows:
 
 ```
